@@ -1,2 +1,2 @@
 # Adenomyosis_Visium
-Spatial transcriptomics of adenomyosis from invading site to deep lesion
+Spatial transcriptomic profiling of human adenomyosis from the invading site to deep lesions, including the integration and re-analysis of single-cell data, annotation of spatial spots, differential expression analysis and functional enrichment of cell types within different microenvironments, construction of pseudotemporal ordering, analysis of cell communication, examination of protein-protein interactions, estimation of geneset scores, and analysis of gene regulatory networks.
