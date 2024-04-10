@@ -68,7 +68,7 @@ seurat_obj1 <- seurat_oobj
   
   table(marker$subcelltype)
   
-  marker=marker[(marker$p_val_adj<0.01),]
+  marker=marker[(marker$p_val<0.01),]
   table(marker$subcelltype)
 
   marker$subcelltype <- factor(as.character(marker$subcelltype), levels=c('SFRP5+ epi',
