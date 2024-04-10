@@ -5,7 +5,7 @@
 #SBATCH -N 2               
 #SBATCH --ntasks-per-node=40   
 #SBATCH --mail-type=end           
-#SBATCH --mail-user=geelby@sjtu.edu.cn
+#SBATCH --mail-user=//////
 #SBATCH --output=%jvelocyto.out
 #SBATCH --error=%jvelocyto.err
 #SBATCH --exclusive
