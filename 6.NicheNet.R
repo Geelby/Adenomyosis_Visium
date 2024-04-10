@@ -1,7 +1,6 @@
 #reference：https://github.com/saeyslab/nichenetr/blob/master/vignettes/differential_nichenet.md
 
 library(nichenetr)
-library(nichenetr)
 library(RColorBrewer)
 library(tidyverse)
 library(Seurat) 
