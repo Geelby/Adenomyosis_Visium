@@ -6,7 +6,7 @@
 #SBATCH -N 1               
 #SBATCH --ntasks-per-node=64   
 #SBATCH --mail-type=end          
-#SBATCH --mail-user=geelby@sjtu.edu.cn
+#SBATCH --mail-user=//////
 #SBATCH --output=%jpyscenicstep3.out
 #SBATCH --error=%jpyscenicstep3.err
 #SBATCH --exclusive
