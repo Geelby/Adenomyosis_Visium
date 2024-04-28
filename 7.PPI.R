@@ -56,7 +56,7 @@ library(ggpubr)
       
       #sce.markerssave <- sce.markers
       sce.markers <- sce.markerssave
-      sce.markers=sce.markers[(sce.markers$avg_log2FC>0.263034) & (sce.markers$p_val_adj<0.05),]
+      sce.markers=sce.markers[(sce.markers$p_val_adj<0.05),]
    
     #GO
       gcSample=split(sce.markers$ENTREZID, sce.markers$cluster) 
